@@ -214,3 +214,39 @@ a {
     padding: 0 120px;
     color: var(--branco);
 }
+
+.recomendas {
+    padding: 50px 120px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 100px;
+}
+
+.recomendas-lista {
+    display: grid;
+
+    grid-template-columns: repeat(4, 20%);
+    gap: 10%;
+
+    justify-content: center;
+}
+
+.recomendas h3 {
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    width: 90%;
+    display: grid;
+}
+
+.recomendas h2 {
+    font-size: 0.7em;
+    margin-bottom: 20px;
+    text-transform: lowercase;
+    display: grid;
+}
