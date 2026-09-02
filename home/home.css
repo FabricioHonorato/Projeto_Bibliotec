@@ -215,38 +215,49 @@ a {
     color: var(--branco);
 }
 
+/* Livros rcomendados */
 .recomendas {
-    padding: 50px 120px;
-
     display: flex;
     flex-direction: column;
-
     align-items: center;
     justify-content: space-between;
-
+    padding: 50px 120px;
     gap: 100px;
 }
 
 .recomendas-lista {
     display: grid;
-
-    grid-template-columns: repeat(4, 20%);
-    gap: 10%;
-
+    grid-template-columns: repeat(4, auto);
     justify-content: center;
+    gap: 5%;
 }
 
-.recomendas h3 {
-    font-size: 1em;
-    margin-bottom: 20px;
+.recomenda {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.recomenda img {
+    height: 300px;
+}
+
+.recomenda h3 {
+    /* display: grid; */
+    /* margin-top: 10px;
+    margin-bottom: 20px; */
     text-transform: uppercase;
-    width: 90%;
-    display: grid;
+    font-size: 1em;
+    width: 65%;
+    /* justify-items: center;
+    text-align: center; */
 }
 
-.recomendas h2 {
-    font-size: 0.7em;
-    margin-bottom: 20px;
-    text-transform: lowercase;
-    display: grid;
+.top-livro {
+    font-size: 0.9em;
 }
+
+/* Footer */
