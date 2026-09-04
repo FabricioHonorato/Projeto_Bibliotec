@@ -1,39 +1,5 @@
 
-/* CABEÇALHO */
 
-a {
-    color: var(--branco);
-    text-decoration: none; /* tira o sublinhado do link */
-}
-
-.cabecalho {
-    background-color: var(--azul-escuro);
-
-    display: flex;
-
-    /* alinha no sentido do flex */
-    justify-content: space-between;
-
-    /* alinha no sentido contrario do flex */
-    align-items: center;
-
-    padding: 0 120px;
-
-    height: 10vh; /* 10% da visualização vertical do dispositivo */
-}
-
-.navegacao {
-    display: flex;
-    align-items: center;
-
-    gap: 50px;
-}
-
-.navegacao a {
-    text-transform: uppercase;
-    font-size: 1em; /* equivale a 16px */
-    font-weight: 500;
-}
 
 /* Conteudo principal */
 
@@ -256,4 +222,48 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+}
+
+.topicos {
+    display: grid;
+    gap: 100px;
+    grid-template-columns: 50% 50%;
+    padding-right: 50px;
+}
+
+.topicos nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.topicos nav h4 {
+    color: var(--cor-destaque);
+    margin-bottom: 10px;
+}
+
+.logos-redes {
+    display: flex;
+    gap: 30px;
+}
+
+footer span {
+    display: flex;
+    border: 1px solid color(white);
+    margin: 50px 0 30px;
+}
+
+.info-extras, .info-mais {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-extras {
+    color: var(--branco);
+}
+
+.info-mais nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
