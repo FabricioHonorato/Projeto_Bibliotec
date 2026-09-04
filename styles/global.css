@@ -11,6 +11,7 @@
     --texto: #26333d;
     --branco: #fff;
     --cor-destaque: #2fd6cb;
+    --fundos: #e9f0ef;
 }
 
 html {
@@ -23,8 +24,8 @@ body {
     color: var(--texto);
 }
 
-/* CABEÇALHO */
 
+/* CABEÇALHO */
 a {
     color: var(--branco);
     text-decoration: none; /* tira o sublinhado do link */
@@ -32,7 +33,6 @@ a {
 
 .cabecalho {
     background-color: var(--azul-escuro);
-
     display: flex;
 
     /* alinha no sentido do flex */
