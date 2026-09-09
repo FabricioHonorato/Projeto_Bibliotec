@@ -143,6 +143,31 @@
     justify-self: flex-start;
 }
 
+.livro p:nth-child(4) {
+    color: chocolate;
+}
+
+.retirado {
+    color: green;
+}
+
+.livro-retirado {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+
+    align-items: center;
+    justify-items: center;
+
+    height: 60px;
+    padding: 0 30px;
+
+    border: 1px solid var(--cor-bordas);
+    border-radius: 10px;
+
+    font-size: 1em;
+}
+
+
 
 /* CHECKBOX */
 input[type="checkbox"] {
