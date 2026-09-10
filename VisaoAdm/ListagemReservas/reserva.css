@@ -167,6 +167,10 @@
     font-size: 1em;
 }
 
+.livro-retirado .nome-livro{
+    width: 100%;
+}
+
 
 
 /* CHECKBOX */
