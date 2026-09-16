@@ -12,3 +12,6 @@ menu.addEventListener("click", function() {
         navMenu.className = "navegacao";
     }
 })
+
+//opçao com
+// menu.addEventListener("click", () => {})
